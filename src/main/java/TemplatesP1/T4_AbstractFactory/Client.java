@@ -1,0 +1,13 @@
+package TemplatesP1.T4_AbstractFactory;
+
+public class Client {
+    public static void main(String[] args) {
+        String dato="B";
+
+        /*if(dato.equals("ConcreteProductA")){
+        } else if(dato.equals("ConcreteProductB")){
+        }*/
+
+        AbstractFactory.make(dato).methodA();
+    }
+}
